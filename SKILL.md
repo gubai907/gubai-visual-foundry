@@ -5,7 +5,7 @@ description: Compose controlled visual prompts for product and ecommerce images,
 
 # Gubai Visual Foundry V2
 
-通用视觉工作台，版本 2.0.0-public.3。用于编译可控的视觉生成、编辑、精修、视频与分镜提示词，并在实际生成媒体时按可用工具执行和验收。
+通用视觉工作台，版本 2.0.0-public.4。用于编译可控的视觉生成、编辑、精修、视频与分镜提示词，并在实际生成媒体时按可用工具执行和验收。
 
 ## 执行链
 

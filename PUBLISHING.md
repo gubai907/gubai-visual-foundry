@@ -1,6 +1,6 @@
 # GitHub 公开发布清单
 
-适用版本：2.0.0-public.3。此文件是发布准备清单，不表示仓库、Release 或远程设置已经创建。
+适用版本：2.0.0-public.4。此文件是发布准备清单，不表示仓库、Release 或远程设置已经创建。
 
 ## 目录与文件
 
@@ -13,9 +13,9 @@
 | .gitignore | 已备齐 | 排除本地配置、项目资料、缓存、凭据文件和备份 |
 | CHANGELOG.md | 已备齐 | 公开版本记录 |
 | 校验、合同检查与失败场景测试 | 已备齐 | 检查结构、规则样例及校验脚本行为 |
-| LICENSE | 待维护者选择 | 明确允许他人如何复用 |
+| LICENSE 与 NOTICE.md | 已备齐：CC BY-NC 4.0，Gubai 署名 | 明确非商业复用范围与署名要求 |
 
-GitHub 不强制添加许可证。没有许可证时，不应宣称已开源授权；GitHub 平台允许公开仓库的查看与派生操作。若希望允许复制、修改和商用，应先选定适用许可并加入完整 LICENSE。许可授予只能覆盖自己有权授权的材料；外部品牌、图片、字体和其他第三方资产须另核对来源及许可。[GitHub 许可说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+本项目采用 CC BY-NC 4.0，允许非商业使用、修改和分享，按条款保留署名、许可、来源并注明改动；商业使用须另获授权。含非商业限制，不将本项目描述为开放源代码许可项目。许可授予只能覆盖自己有权授权的材料；外部品牌、图片、字体和其他第三方资产须另核对来源及许可。[GitHub 许可说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 ## 发布前检查
 
@@ -44,7 +44,7 @@ python3 tests/test_validation.py
 | 可见性 | 完成待提交文件核对后设为 Public |
 | Topics | codex、skills、visual-prompts、image-editing、storyboard |
 | 提交署名 | 选择愿意公开的作者名；使用 GitHub 账号提供的 noreply 邮箱 |
-| 首次 Release | 标签 v2.0.0-public.3；说明功能、变化与测试范围；附清洁 ZIP 及 SHA-256 |
+| 首次 Release | 标签 v2.0.0-public.4；说明功能、变化与测试范围；附清洁 ZIP 及 SHA-256 |
 
 GitHub 账号、公开个人资料及提交作者名仍可见。隐藏邮箱设置不会替换已有提交中的邮箱；本地提交应单独使用账号的 noreply 地址，并核对提交作者及提交者元数据。[GitHub 邮箱隐私说明](https://docs.github.com/en/account-and-profile/concepts/email-addresses)
 
@@ -62,4 +62,4 @@ GitHub 账号、公开个人资料及提交作者名仍可见。隐藏邮箱设�
 
 ## 验证边界
 
-确定性合同检查核对固定样例和源规则；脚本行为测试验证正常及失败情况。未执行独立模型遵循性测试、真实媒体生成、厂商能力测试或像素保护区比对。发布前仍需维护者确认许可证、材料权利、账号公开资料和最终远程提交内容。
+确定性合同检查核对固定样例和源规则；脚本行为测试验证正常及失败情况。未执行独立模型遵循性测试、真实媒体生成、厂商能力测试或像素保护区比对。许可已按维护者选择加入；发布前仍需核对材料权利、账号公开资料和最终远程提交内容。
