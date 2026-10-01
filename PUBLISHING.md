@@ -1,15 +1,15 @@
 # GitHub 公开发布清单
 
-适用版本：2.0.0-public.4。此文件是发布准备清单，不表示仓库、Release 或远程设置已经创建。
+适用版本：2.0.0-public.5。此文件是发布准备清单，不表示仓库、Release 或远程设置已经创建。
 
 ## 目录与文件
 
-将本目录的内容作为仓库根目录。完整保留 SKILL.md、agents、core、locks、modules、profiles、platforms、knowledge、qa、examples、tests 和 scripts；不要只上传入口或压缩包。
+将本目录的内容作为仓库根目录。完整保留 SKILL.md、agents、core、locks、modules、profiles、platforms、knowledge、qa、examples、tests、scripts 和 docs；不要只上传入口或压缩包。
 
 | 项目 | 当前状态 | 用途 |
 |---|---|---|
 | SKILL.md 与支持文件 | 已备齐 | 技能入口、路由、规则和示例 |
-| README.md | 已备齐 | 简介、安装、使用、检查及能力边界 |
+| README.md 与 README_EN.md | 中英文已备齐 | 对应的简介、安装、使用与能力边界 |
 | .gitignore | 已备齐 | 排除本地配置、项目资料、缓存、凭据文件和备份 |
 | CHANGELOG.md | 已备齐 | 公开版本记录 |
 | 校验、合同检查与失败场景测试 | 已备齐 | 检查结构、规则样例及校验脚本行为 |
@@ -44,7 +44,7 @@ python3 tests/test_validation.py
 | 可见性 | 完成待提交文件核对后设为 Public |
 | Topics | codex、skills、visual-prompts、image-editing、storyboard |
 | 提交署名 | 选择愿意公开的作者名；使用 GitHub 账号提供的 noreply 邮箱 |
-| 首次 Release | 标签 v2.0.0-public.4；说明功能、变化与测试范围；附清洁 ZIP 及 SHA-256 |
+| 首次 Release | 标签 v2.0.0-public.5；说明功能、变化与测试范围；附清洁 ZIP 及 SHA-256 |
 
 GitHub 账号、公开个人资料及提交作者名仍可见。隐藏邮箱设置不会替换已有提交中的邮箱；本地提交应单独使用账号的 noreply 地址，并核对提交作者及提交者元数据。[GitHub 邮箱隐私说明](https://docs.github.com/en/account-and-profile/concepts/email-addresses)
 

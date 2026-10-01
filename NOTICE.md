@@ -11,3 +11,11 @@ Copyright (c) 2026 Gubai
 本项目不对用户提交的资料或据此创作的作品自动主张所有权。用户输入、第三方参考图、人物肖像、商标和平台内容仍受各自权利与规则约束。
 
 公开教程中的产品、品牌资料和场景案例为虚构教学示范，不含维护者的私人项目资料。外部资料链接不表示其内容纳入本项目许可。
+
+## English attribution and rights notice
+
+Copyright (c) 2026 Gubai. Project: Gubai Visual Foundry. Source: https://github.com/gubai907/gubai-visual-foundry . Licensed under CC BY-NC 4.0; see [LICENSE](LICENSE).
+
+The maintainer's published skill rules, scripts, and documentation use this license. When redistributing original or modified material, retain attribution, source, and license information and indicate changes as required by the terms. Commercial use needs separate authorization. Use repository Issues for authorization inquiries that contain no private data.
+
+The project does not automatically claim ownership of user inputs or resulting creations. User data, third-party reference images, likenesses, trademarks, and platform content remain subject to their own rights and rules. Public examples are fictional teaching material. External links do not bring their content under this project's license.
