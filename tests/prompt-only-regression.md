@@ -1,6 +1,6 @@
 # Prompt-only Deterministic Regression
 
-版本：2.0.0-public.3；执行日期：2026-10-01。
+版本：2.0.0-public.4；执行日期：2026-10-01。
 
 ## 方法与边界
 
