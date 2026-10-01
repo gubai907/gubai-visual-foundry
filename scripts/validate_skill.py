@@ -10,7 +10,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "2.0.0-public.3"
+VERSION = "2.0.0-public.4"
 
 REQUIRED = [
     "SKILL.md",
