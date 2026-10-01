@@ -1,5 +1,7 @@
 # 安装与更新
 
+**简体中文** | [English](installation.en.md)
+
 [返回首页](../README.md) · [快速上手](quick-start.md) · [常见问题](faq.md)
 
 ## 安装前需要什么
