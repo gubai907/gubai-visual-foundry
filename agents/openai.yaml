@@ -1,0 +1,6 @@
+interface:
+  display_name: "Gubai Visual Foundry"
+  short_description: "Route and compile controlled visual prompts"
+  default_prompt: "Use $gubai-visual-foundry to create a controlled prompt for my image, edit, or short video."
+policy:
+  allow_implicit_invocation: true
